@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+body {
+	
+}
+
+/* general clases */
+
+.espacio {
+	margin: 50px 0px 50px 0px;
+}
+
+.base-form {
+	background-color: #f6f6f6;
+	border-radius: 15px;
+	padding: 50px 0px;
+}
+
+#titulo {
+	margin-bottom: 5%;
+}
+
+/* navegation styles */
+
+#nav-warpper {
+	background-color: #f8f9fa;
+}
+
+#nav-bar {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+/* index styles */
+
+#sing-in {
+	background-color: #e6e6e6;
+	background-image: url('../images/map-image.png');
+}
+
+#sing-in-info {
+	font-size: 36px;
+	padding: 3% 0% 0% 3%;
+	color: #10a03b;
+}
+
+/* perfilvendedor style */
+
+#info-perfil {
+	font-size: 48px;
+	border-right: 2px solid #10a03b;
+}
+
+@media only screen and (max-width: 768px) {
+	#info-perfil {
+		border-right: none;
+		font-size: 40px;
+	}
+	#btn-info-perfil {
+		margin-top: 5%;
+	}
+}
+
+/* footer styles */
+
+footer {
+	background-color: #595957;
+	color: #d9d9d9;
+	text-align: center;
+	height: 150px;
+}
+
+footer p {
+	padding-top: 60px;
+}
+
+#container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
