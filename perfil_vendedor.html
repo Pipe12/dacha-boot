@@ -14,6 +14,7 @@
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
+
 <body>
   <div id="nav-warpper">
     <nav class="navbar navbar-light bg-light" id="nav-bar">
@@ -44,8 +45,62 @@
     </div>
   </section>
 
-  <section class="row">
-    <!-- -->
+  <section class="row" id="ultimo-elemento">
+    <!-- dotor´s table -->
+    <div class="col-10 base-table" id="container-table" >
+      <div class="row color-two">
+       <div class="col-lg-7 col-md-7 col-12" id="info-tabla"><p>Médicos a validar</p></div>
+       <div class="col-lg-5 col-md-5 col-12">
+         <form class="form-inline" action="/action_page.php">
+             <div class="input-group col-12" id="input-tabla">
+               <span class="input-group-addon"><img  class="search" src="images/search.png"></span>
+               <input type="text" class="form-control" placeholder="">
+             </div> 
+           </form>
+       </div>
+      </div>
+      <div class="row">
+        <table class="table tabla-medicos">
+          <thead>
+            <tr class="color-two">
+              <th scope="col">Nombre</th>
+              <th scope="col" id="email">E-mail</th>
+              <th scope="col">Teléfono</th>
+              <th scope="col">Acción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Andrés Felipe Burbano</th>
+              <td id="email">andresfelipeburbano@hotmail.com</td>
+              <td>300-611-2631</td>
+              <td>
+                <button type="button" class="col-5 btn btn-success btn-sm">Validar</button>
+                <button type="button" class="col-5 btn btn-danger btn-sm">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Maria Alejandra Burbano</th>
+              <td id="email">burbano14@hotmail.com</td>
+              <td>312-345-2495</td>
+              <td>
+                <button type="button" class="col-5 btn btn-success btn-sm">Validar</button>
+                <button type="button" class="col-5 btn btn-danger btn-sm">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Maria Victoria Santa</th>
+              <td id="email">mariavictoriasf@hotmail.com</td>
+              <td>315-854-2375</td>
+              <td>
+                <button type="button" class="col-5 btn btn-success btn-sm">Validar</button>
+                <button type="button" class="col-5 btn btn-danger btn-sm">Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </section>
 
   <footer>
